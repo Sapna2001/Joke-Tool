@@ -88,6 +88,7 @@ function findMostPopularJoke(jokes) {
 
 // Main script
 const searchTerm = process.argv[2];
+console.log("Welcome to Jestful Jokinator")
 
 if (!searchTerm) {
     console.log('Please provide a search term for jokes or use "leaderboard" to view the most popular joke.');
